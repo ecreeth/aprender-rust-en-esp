@@ -19,7 +19,7 @@ fn definir_un_array() {
    // let nombre_array: [tipo; tamaño] = [elem1, elem2, elem3, elem4];
 
    // definir un array de 4 elementos
-   let arr: [i32; 4] = [1, 2, 3, 4]; 
+   let arr: [i32; 4] = [1, 2, 3, 4];
 
    // inicializar un array de 4 elementos con valor 0.
    let arr1 = [0; 4];
@@ -35,19 +35,19 @@ fn definir_un_array() {
 
 //! # Acceder a un elemento de una matriz
 
-//! Se puede acceder a cualquier valor de la matriz escribiendo el nombre de la matriz 
+//! Se puede acceder a cualquier valor de la matriz escribiendo el nombre de la matriz
 //! seguido del número de índice entre corchetes [].
 
 fn acceso_de_elementos() {
 
    // definir una matriz de 4 elementos
-   let arr:[i32; 4] = [22, 13, 9, 55]; 
+   let arr:[i32; 4] = [22, 13, 9, 55];
 
    // imprimir el primer elemento de la matriz
    println!("El primer elemento del array es {}", arr[0]);
 
    // inicializar una matriz de 4 elementos con valor 2
-   let arr1 = [2; 4]; 
+   let arr1 = [2; 4];
 
    // imprimir el primer elemento de la matriz
    println!("El primer elemento del array es {}", arr1[0]);
@@ -101,4 +101,28 @@ fn longitud_de_un_array() {
 
     // imprimir la longitud de la matriz
     println!("Longitud del array: {}", mi_array.len());
+}
+
+// ------------------------
+
+//! Obtener un Slice apartir de un array
+
+//! Slice es básicamente una porción de una matriz. El tamaño de la porción se conoce
+//! en tiempo de compilación.
+
+//! ## Sintaxis
+
+// Para declarar un segmento de un array, debemos especificar el nombre del conjunto fuente
+// y el rango de elementos que se incluirán en el segmento.
+
+fn obtener_un_slice() {
+
+    // definir una matriz de 4 elementos
+    let mi_array:[i32; 4] = [1, 2, 3, 4];
+
+    // definir el slice
+    let slice_desde_un_array: &[i32] = &mi_array[0..2];
+
+    // imprimir el segmento de una matriz
+    println!("Slice de una matriz: {:?}", slice_desde_un_array);
 }
