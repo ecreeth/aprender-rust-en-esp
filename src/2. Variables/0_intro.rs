@@ -5,7 +5,6 @@
 
 //! A continuación veremos cómo y por qué `Rust` nos alienta a utilizar la inmutabilidad.
 
-// COMPILA CON ERROR!
 fn main() {
     // Una variable se puede inicializar asignándole un valor cuando se declara. 
     // Se dice que el valor está vinculado a esa variable.
@@ -22,7 +21,6 @@ fn main() {
 
 //! Ahora modificaremos nuestro ejemplo para hacer que nuestra variable `x` sea mutable
 
-// COMPILA SIN ERRORES!
 fn ejemplo_de_mutabilidad() {
 
     let mut x = 5; // Ahora `x` es mutable
@@ -32,9 +30,16 @@ fn ejemplo_de_mutabilidad() {
     x = 34;
 }
 
-// Ahora podemos modificar tantas veces como deseamos el valor de nuestra variable utilizando `mut`.
-// Si ejecutamos este código, el mismo no nos arrojará ningún error, sin embargo, si que nos mostrará
-// 4 advertencias. 
+//! Ahora podemos modificar tantas veces como deseamos el valor de nuestra variable utilizando `mut`.
+//! Si ejecutamos este código, el mismo no nos arrojará ningún error, sin embargo, si que nos mostrará
+//! 4 advertencias. 
 
-// Esto debido a que `Rust` por defecto nos advierte sobre el código que hemos declarado, pero que no 
-// hemos utilizado en nuestra aplicación, ya que en ningún momento estamos utilizando la variable `x`.
+//! Esto es debido a que `Rust` por defecto nos advierte sobre el código que hemos declarado, pero que no 
+//! hemos utilizado en nuestra aplicación, ya que en ningún momento estamos utilizando la variable `x`.
+
+//! Estas advertencias pueden silenciarse al anteponer el nombre de la variable con un guión bajo.
+
+fn variables_no_utilizadas() {
+	let _edad = 23;
+	let _nombre = "Luis M. Alvarado";
+}
