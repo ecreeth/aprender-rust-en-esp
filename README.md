@@ -15,3 +15,4 @@ He tomado como inspiración los siguientes proyectos, de los cuales he importado
 | Error   | ❌		|
 | Éxito   | ✔️		|
 | Advertencia | ⚠️	|
+| Nota | 📝	|
