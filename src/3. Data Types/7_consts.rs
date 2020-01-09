@@ -17,16 +17,16 @@
 
 //! Ejemplos
 
-//! El siguiente ejemplo define dos variables const:
+//! El siguiente ejemplo define dos constantes:
 
-//! - ID_1 en alcance global
-//! - ID_2 en ámbito local
+//! - `NOMBRE` en alcance global
+//! - `ID` en ámbito local
 
 const NOMBRE: &str = "Luis M. Alvado"; // definir una constante global
 
 fn main() {
-    const ID_2: u32 = 3; // definir una constante local
+    const ID: u32 = 3; // definir una constante local
     
-    println!("ID: {}", ID);
-    println!("ID 2: {}", ID_2);
+    println!("NOMBRE: {}", NOMBRE);
+    println!("ID 2: {}", ID);
 }
