@@ -22,11 +22,11 @@
 //! - ID_1 en alcance global
 //! - ID_2 en ámbito local
 
-const ID_1: i32 = 4; // definir una constante global
+const NOMBRE: &str = "Luis M. Alvado"; // definir una constante global
 
 fn main() {
     const ID_2: u32 = 3; // definir una constante local
     
-    println!("ID 1: {}", ID_1);
+    println!("ID: {}", ID);
     println!("ID 2: {}", ID_2);
 }
