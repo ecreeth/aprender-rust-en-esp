@@ -10,10 +10,9 @@ El siguiente ejemplo hace una función cal_perimetro_area() que toma una `x` e `
 (longitud y ancho de un rectángulo) como parámetro de la función y devuelve una
 tupla (área, perímetro).
 
-```rust
+```rust, editable
 // función principal
 fn main() {
-
     let longitud = 4;
     let ancho = 3;
 

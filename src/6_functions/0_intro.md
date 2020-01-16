@@ -51,7 +51,7 @@ function_xyz en este ámbito.
 El siguiente ejemplo crea una función definida por el usuario y la invoca
 desde la función principal.
 
-```rust
+```rust, editable
 // declarar una función
 fn mostrar_mensaje(){
   println!("Hola, desde mi primera función");

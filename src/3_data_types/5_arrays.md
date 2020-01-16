@@ -11,7 +11,7 @@ Por defecto, el primer elemento siempre está en el índice 0.
 Para definir un array en `Rust`, tenemos que definir el tipo y el tamaño del array.
 Para inicializar un array, los elementos están encerrados entre corchetes [].
 
-```rust
+```rust, editable
 fn definir_un_array() {
    // Sintaxis
    // let nombre_array: [tipo; tamaño] = [elem1, elem2, elem3, elem4];
@@ -35,7 +35,7 @@ matriz que consta de 4 ceros.
 Se puede acceder a cualquier valor de la matriz escribiendo el nombre de la matriz
 seguido del número de índice entre corchetes [].
 
-```rust
+```rust, editable
 fn acceso_de_elementos() {
    // definir una matriz de 4 elementos
    let arr:[i32; 4] = [22, 13, 9, 55];
@@ -56,7 +56,7 @@ fn acceso_de_elementos() {
 Al igual que una variable se puede hacer mutable al agregar la palabra clave `mut`
 después de `let`, lo mismo ocurre con una matriz.
 
-```rust
+```rust, editable
 fn mutabilidad() {
     // definir una matriz mutable de 4 elementos
     let mut arr:[i32; 4] = [7, 8, 9, 10];
@@ -73,7 +73,7 @@ fn mutabilidad() {
 
 Toda la matriz se puede recorrer utilizando un bucle o el `trait` de depuración.
 
-```rust
+```rust, editable
 fn imprimir_arrays() {
     // definir una matriz de 4 elementos
     let mi_array:[i32; 4] = [1, 2, 3, 4];
@@ -88,7 +88,7 @@ fn imprimir_arrays() {
 
 Para acceder a la longitud de la matriz, debemos utilizar la función incorporada `len`.
 
-```rust
+```rust, editable
 fn longitud_de_un_array() {
     // definir una matriz de 4 elementos
     let mi_array:[i32; 4] = [8, 66, 22, 11];
@@ -108,7 +108,7 @@ en tiempo de compilación.
 Para declarar un segmento de un array, debemos especificar el nombre del conjunto fuente
 y el rango de elementos que se incluirán en el segmento.
 
-```rust
+```rust, editable
 fn obtener_un_slice() {
     // definir una matriz de 4 elementos
     let mi_array:[i32; 4] = [1, 2, 3, 4];

@@ -18,7 +18,7 @@ fn definicion_implicita() {
 
 // Explica explícitamente al compilador sobre el tipo de variable.
 
-```rust
+```rust, editable
 fn definicion_explicita() {
 	// let nombre_variable: tipo_de_dato = valor;
 	let nombre_variable: u32 = 23;

@@ -22,7 +22,7 @@ El siguiente ejemplo define dos constantes:
 - `NOMBRE` en alcance global
 - `ID` en ámbito local
 
-```rust
+```rust, editable
 const NOMBRE: &str = "Luis M. Alvado"; // definir una constante global
 
 fn main() {

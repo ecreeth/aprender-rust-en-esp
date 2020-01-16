@@ -28,7 +28,7 @@ let nombre_tupla: (&str, char, i32) = ("valor1", 'c', 1);
 
 Ejemplos
 
-```rust
+```rust, editable
 fn creacion_de_tuplas() {
     // definir un tupla
     let informacion_personal = ("eCreeth", 48, "35kg", "6ft");
@@ -46,7 +46,7 @@ al valor de la tupla utilizando el operador de punto (.)
 Para obtener los valores individuales de una tupla, podemos usar la coincidencia
 de patrones para desestructurar un valor de tupla, como este:
 
-```rust
+```rust, editable
 fn acceder_a_sus_valores() {
     // definir una tupla
     let info_personal = ("Luis M. Alvarado", 48, "35kg", "6ft");
@@ -73,7 +73,7 @@ fn acceder_a_sus_valores() {
 Al igual que una variable se vuelve mutable al agregar la palabra clave `mut`
 después de `let`, lo mismo ocurre con una tupla.
 
-```rust
+```rust, editable
 fn tuplas_mutables() {
     // definir una tupla
     let mut info_personal = ("Miguel", 48);
@@ -93,7 +93,7 @@ fn tuplas_mutables() {
 
 Toda la tupla se puede mostrar utilizando el rasgo (trait) de depuración.
 
-```rust
+```rust, editable
 fn imprimir_tuplas() {
     // definir una tupla
     let info_personal = ("Alvarado", 23, "35kg", "6ft");

@@ -18,7 +18,7 @@ al signo `->` en la definición de la función.
 El siguiente ejemplo crea una función square() que toma un número `num` como parámetro de la función
 y almacena el cuadrado de `num` en la variable local `res` y devuelve la variable `res`.
 
-```rust
+```rust, editable
 fn square(num: i32) -> i32 {
 
   println!("El valor de `num` dentro de la función es: {}", nun);
@@ -45,7 +45,7 @@ fn main() {
 El siguiente ejemplo crea una función square() que toma un número `num` como parámetro de la función
 y devuelve el cuadrado del número `num` mediante la palabra clave `return`.
 
-```rust
+```rust, editable
 fn square(num: i32) -> i32 {
 
   println!("El valor de `num` dentro de la función es: {}", nun);

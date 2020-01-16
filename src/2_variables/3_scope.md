@@ -27,7 +27,7 @@ Las constantes se pueden declarar en cualquiera de estos ámbitos.
 ⚠️: El siguiente código nos arrojará un error, ya que la variable `variable_interna`
 fue creada dentro de un bloque y se ha querido acceder fuera de su alcance.
 
-```rust
+```rust, editable
 fn main() {
 	let variable_externa = 17;
 

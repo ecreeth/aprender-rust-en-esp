@@ -7,7 +7,7 @@ que la variable interna oculta la variable externa.
 
 El siguiente código explica este concepto:
 
-```rust
+```rust, editable
 fn main() {
   let variable_externa = 112;
 

@@ -13,7 +13,7 @@ Ejemplos
 
 El siguiente código define explícitamente la variable usando la palabra clave char:
 
-```rust
+```rust, editable
 fn definicion_explicita() {
     // definir explícitamente 
     let letra:char = 'l';
@@ -27,7 +27,7 @@ fn definicion_explicita() {
 El siguiente código define implícitamente el tipo de caracteres de la variable al asignarles 
 el valor único entre comillas simples.
 
-```rust
+```rust, editable
 fn definicion_implicita() { 
     // definir implícitamente
     let letra_1 = 'a';

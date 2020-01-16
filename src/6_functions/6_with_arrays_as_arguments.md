@@ -18,7 +18,7 @@ fn nombre_funcion( mut nombre_array: [tipodato;tamanho] )
 
 El siguiente ejemplo toma la matriz arr por valor en el parámetro de función.
 
-```rust
+```rust, editable
 fn main() {
    let arr = [1, 2, 3, 4, 5];
 
@@ -42,7 +42,7 @@ el nombre de la matriz si se desea realizar cambios locales. Se puede omitir de 
 El siguiente ejemplo realiza una función calcular_medio() que calcula la media de los valores en una
 matriz tomando primero una suma dentro de un bucle for y luego dividiendo el resultado por 5.
 
-```rust
+```rust, editable
 fn main() {
    let arr = [1, 2, 3, 4, 5];
 
@@ -76,7 +76,7 @@ fn nombre_funcion(nombre_array:&mut [tipodato;tamanho])
 
 El siguiente ejemplo toma la matriz `arr` por referencia en el parámetro de función.
 
-```rust
+```rust, editable
 fn main() {
    let mut arr = [1, 2, 3, 4, 5];
 
@@ -107,7 +107,7 @@ fn nombre_funcion()->[tipodato;tamanho]
 
 El siguiente ejemplo toma el arreglo `arr`, lo modifica dentro de la función y lo devuelve.
 
-```rust
+```rust, editable
 fn main() {
    let arr = [1, 2, 3, 4, 5];
 

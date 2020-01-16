@@ -10,7 +10,7 @@ El siguiente ejemplo crea una función square() que toma un número `num` que se
 como referencia a la función como parámetro e imprime el cuadrado de la
 función dentro de la función.
 
-```rust
+```rust, editable
 fn square(num:&mut i32){
   *num = (*num * *num);
   println!("El valor de `num` dentro de la función es: {}", num);

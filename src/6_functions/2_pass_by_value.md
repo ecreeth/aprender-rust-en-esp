@@ -13,14 +13,13 @@ función de llamada.
 El siguiente ejemplo crea una función `square()` que toma un número `num` como
 parámetro de la función e imprime el cuadrado.
 
-```rust
+```rust, editable
 fn square(mut num: i32){
   num = num * num;
   println!("El valor de `num` dentro de la función es: {}", num);
 }
 
 fn main() {
-
   let num = 4;
 
   println!("El valor de `num` antes de la llamada a la función es: {}", num);

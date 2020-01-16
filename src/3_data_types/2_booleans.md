@@ -11,7 +11,7 @@ El siguiente código explica cómo definir una variable booleana de *TRES* maner
 
 El siguiente código define explícitamente la variable usando la palabra clave `bool`:
 
-```rust
+```rust, editable
 fn definicion_explicita() {
 	// asignar un valor booleano
     let esta_disponible:bool = true;
@@ -25,7 +25,7 @@ fn definicion_explicita() {
 El siguiente código define implícitamente el tipo booleano de una variable asignando 
 el valor verdadero o falso a la variable.
 
-```rust
+```rust, editable
 fn definicion_implicita() {
     // asignar un valor booleano
     let a = true;
@@ -41,7 +41,7 @@ fn definicion_implicita() {
 El resultado de una expresión que se evalúa como verdadero o falso (por ejemplo, una comparación
 de dos valores) se puede asignar a una variable booleana implícita.
 
-```rust
+```rust, editable
 fn resultado_de_una_expresion() {
     // obtener un valor de una expresión
     let c = 10 > 2;

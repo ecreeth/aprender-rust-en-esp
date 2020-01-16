@@ -2,7 +2,7 @@
 
 Es posible asignar múltiples variables en una declaración.
 
-```rust
+```rust, editable
 fn main() {
 	// Declaramos las variables `curso` y `nivel` 
     let (curso, nivel) = ("Rust", "básica");
@@ -19,7 +19,7 @@ fn main() {
 
 # Asignación de múltiples variables utilizando la mutibilidad
 
-```rust
+```rust, editable
 fn main() {
 	// Declaramos las variables `curso` y `nivel` y las hacemos mutables 
     let (mut curso, mut nivel) = ("Rust", "básica");

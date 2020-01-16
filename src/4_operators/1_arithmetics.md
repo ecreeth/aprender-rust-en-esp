@@ -2,7 +2,7 @@
 
 Los operadores aritméticos se utilizan para realizar operaciones aritméticas.
 
-```rust
+```rust, editable
 fn main() {
     let a = 5;
     let b = 8;

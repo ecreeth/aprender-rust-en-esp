@@ -9,7 +9,7 @@ Ejemplos
 
 El siguiente código define explícitamente la variable usando la palabra clave `&str`:
 
-```rust
+```rust, editable
 fn definicion_explicita() {
     // definir explícitamente
     let lenguaje:&str = "Programación en Rust";
@@ -23,7 +23,7 @@ fn definicion_explicita() {
 El siguiente código define implícitamente el tipo de cadena de la variable al asignarles
 el valor único entre comillas dobles.
 
-```rust
+```rust, editable
 fn definicion_implicita() { 
     // definir implícitamente
     let lenguaje_2 = "Programación en C++";

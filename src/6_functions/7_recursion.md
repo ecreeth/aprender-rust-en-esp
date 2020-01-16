@@ -24,7 +24,7 @@ El siguiente ejemplo calcula el factorial de un número usando recursividad:
 
 📝 Nota: Un factorial se define solo para números enteros no negativos.
 
-```rust
+```rust, editable
 fn main(){
     let n = 4;
     let fact = factorial(n);

@@ -18,7 +18,7 @@ se conocen como argumentos.
 
 Para comprender el concepto anterior, veamos el siguiente ejemplo:
 
-```rust
+```rust, editable
 // creamos la función
 fn mostrar_valores(param_1: i32, param_2: i32) {
   println!("El primer valor pasado dentro de la función: {}", param_1);
@@ -26,7 +26,6 @@ fn mostrar_valores(param_1: i32, param_2: i32) {
 }
 
 fn main() {
-
   let valor_1 = 1;
   let valor_2 = 2;
 

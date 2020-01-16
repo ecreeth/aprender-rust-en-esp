@@ -21,7 +21,7 @@ PUNTOS_MAXIMOS y ​​su valor se establece en 100,000. (La convención de nome
 las constantes es usar todas las mayúsculas con guiones bajos entre palabras, y los guiones 
 bajos se pueden insertar en literales numéricos para mejorar la legibilidad): 
 
-```rust
+```rust, editable
 fn main() {
 	// Declaramos nuestra constante, le asignamos el tipo de dato y su valor
 	const PUNTOS_MAXIMOS: u32 = 100_000;

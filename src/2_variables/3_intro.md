@@ -1,1 +1,0 @@
-# Ámbito (alcance)

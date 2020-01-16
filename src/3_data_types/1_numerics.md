@@ -45,9 +45,8 @@ Tampoco deberían elegir un tipo de datos que sea tan grande que desperdicie mem
 El siguiente código define explícitamente las variables enteras utilizando
 el tipo entero fijo o variable:
 
-```rust
+```rust, editable
 fn definicion_explicita() {
-
     // definir explícitamente un número entero
     let a:i32 = 24;
     let b:u64 = 23;
@@ -67,9 +66,8 @@ fn definicion_explicita() {
 El siguiente código define implícitamente el tipo entero de la variable mediante
 la asignación de un valor entero a la variable.
 
-```rust
+```rust, editable
 fn definicion_implicita() {
-
     // definir explícitamente un número entero
     let a = 21; 
     let b = 1;
@@ -99,9 +97,8 @@ Ejemplos
 
 El siguiente código define explícitamente la variable flotante utilizando el tipo flotante (`f32` o `f64`):
 
-```rust
+```rust, editable
 fn definicion_explicita() {
-
     // definir explícitamente un tipo flotante
     let f1:f32 = 32.9;
     let f2:f64 = 6789.89;
@@ -116,7 +113,7 @@ fn definicion_explicita() {
 El siguiente código define implícitamente el tipo flotante de la variable mediante la asignación
 de un valor de punto flotante a la variable:
 
-```rust
+```rust, editable
 fn definicion_implicita() {
     // definir implícitamente un tipo flotante
     let pi = 3.14;

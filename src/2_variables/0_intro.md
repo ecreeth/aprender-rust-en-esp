@@ -5,7 +5,7 @@ durante la ejecución del programa.
 
 A continuación veremos cómo y por qué `Rust` nos alienta a utilizar la inmutabilidad.
 
-```rust
+```rust, editable
 fn main() {
     // Una variable se puede inicializar asignándole un valor cuando se declara. 
     // Se dice que el valor está vinculado a esa variable.
@@ -23,7 +23,7 @@ llamada `mut`. Simplemente agregamos esta palabra delante del nombre de la varia
 
 Ahora modificaremos nuestro ejemplo para hacer que nuestra variable `x` sea mutable
 
-```rust
+```rust, editable
 fn ejemplo_de_mutabilidad() {
 
     let mut x = 5; // Ahora `x` es mutable
@@ -43,7 +43,7 @@ hemos utilizado en nuestra aplicación, ya que en ningún momento estamos utiliz
 
 Estas advertencias pueden silenciarse al anteponer el nombre de la variable con un guión bajo.
 
-```rust
+```rust, editable
 fn variables_no_utilizadas() {
 	let _edad = 23;
 	let _nombre = "Luis M. Alvarado";
