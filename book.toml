@@ -1,0 +1,6 @@
+[book]
+authors = ["ecreeth"]
+language = "es"
+multilingual = false
+src = "src"
+title = "Aprendiento Rust"
