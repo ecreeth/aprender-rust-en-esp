@@ -1,4 +1,4 @@
-Caracteres
+# Caracteres
 
 El valor asignado a una variable `char` está encerrado en una comilla simple ('').
 
